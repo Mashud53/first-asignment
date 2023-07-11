@@ -1,0 +1,269 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+
+}
+/*banner style*/
+.banner-container{
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 850px;
+    display: flex;
+    padding-top: 20px ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.banner-info{
+    margin-left: 90px;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 800;
+    color:#272727;
+}
+.banner-desc{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    margin: 30px 0px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.banner-btn{
+    padding: 20px 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E55473;
+    
+
+}
+.banner-btn a{
+    text-decoration: none;
+    color:#FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.main-photo{
+    margin-bottom: -55px ;
+}
+/*feature style*/
+.feature-container{
+    margin: 100px 100px;
+    padding: 0px 0px;
+    background-color: #FFF;
+    
+}
+.primary-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.primary-desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.feature-photo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 50px 0px;
+    
+    
+
+    
+}
+.photo-left{
+    width: 300px;
+    height: 350px;
+    margin: 0px 30px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+.photo-middle{
+    width: 300px;
+    height: 350px;
+    margin: 0px 30px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.photo-right{
+    width: 300px;
+    height: 350px;
+    margin: 0px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.feature-photo-info{
+    text-align: center;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+/*service style*/
+.services{
+    margin: 200px 100px;
+    padding: 100px 50px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.smile-day{
+    width: 400px;
+    height: 100px;
+    
+}
+.services-icon{
+    
+    display: block;
+    margin: auto;
+
+}
+.service-icon-info{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+/*addvertise style*/
+.addvertise{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+span{
+    color:#E55473
+}
+.add-info{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add-btn{
+    margin: 30px 0px;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E55473;
+    
+}
+.add-btn a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+/*instagram style*/
+.insta-container{
+    margin: 100px 100px;
+    background: #FFF;
+}
+.insta-photo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;   
+
+}
+.insta-pic{
+    max-width: 20%;
+    height: auto;
+    
+}
+/*mail style*/
+.mail-container{
+    background-image: url(./Asset/Rectangle\ 9.png);
+    height: 300px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 100px 100px;
+    padding-top: 100px;
+}    
+.mail-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mail-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.mail-box input[type="email"]{
+    width: 50%;
+    
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 22px 35px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+
+    
+}
+.mail-btn{
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E55473;
+}
+.mail-btn a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+footer{
+    height: 400px;
+    background: #111010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-title{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;   
+}
+.footer-desc{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0 40px 0;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
